@@ -1,0 +1,1 @@
+E:\xampp\mysql\bin\mysqldump -uroot --default-character-set=utf8 laravel5.1 > D:\wwwroot\laravel5.1\db.sql

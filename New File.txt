@@ -1,0 +1,12 @@
+<?php
+
+$hwCount = 5;//号位数量
+$groupCount = 5;//每组人数
+for ($i = 0; $i < 100; $i++) {
+	for ($hw = 1; $hw <= $hwCount; $i++) {
+		for ($j = 0; $j < $groupCount; $j++) {
+			$n=($hw+$i)*j;
+			echo "{$hw}号位{$n}批次\n";
+		}
+	}
+}
